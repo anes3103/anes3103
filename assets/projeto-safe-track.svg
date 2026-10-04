@@ -3,22 +3,80 @@
   <defs>
     <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
       <feGaussianBlur stdDeviation="4" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
+
   <style>
-    text{font-family:'Courier New',Consolas,monospace;font-weight:bold}
-    .p{animation:pl 3s ease-in-out infinite}
-    .bk{animation:bk 1.2s steps(1) infinite}
-    .mv{animation:mv 3.5s linear infinite}
-    @keyframes pl{0%,100%{stroke-opacity:.5}50%{stroke-opacity:1}}
-    @keyframes bk{50%{opacity:.35}}
-    @keyframes mv{from{transform:translateX(0)}to{transform:translateX(340px)}}
+    text {
+      font-family: 'Courier New', Consolas, monospace;
+      font-weight: bold;
+    }
+
+    .p {
+      animation: pl 3s ease-in-out infinite;
+    }
+
+    .bk {
+      animation: bk 1.2s steps(1) infinite;
+    }
+
+    @keyframes pl {
+      0%, 100% {
+        stroke-opacity: .5;
+      }
+
+      50% {
+        stroke-opacity: 1;
+      }
+    }
+
+    @keyframes bk {
+      50% {
+        opacity: .35;
+      }
+    }
   </style>
-  <path class="p" d="M4 4H416L436 24V166H24L4 146Z" fill="#12001F" stroke="#B400FF" stroke-width="2" filter="url(#glow)"/>
-  <rect class="mv" x="20" y="5" width="80" height="2" fill="#E100FF"/>
-  <text x="28" y="40" font-size="13" fill="#8A4DD6">// PROJETO 01</text>
-  <text x="28" y="88" font-size="34" fill="#FFFFFF" filter="url(#glow)">SAFE-TRACK</text>
-  <text x="28" y="116" font-size="14" fill="#B44CFF">&gt; Projeto em desenvolvimento</text>
-  <text class="bk" x="412" y="148" text-anchor="end" font-size="14" fill="#E100FF">[ VER REPOSITÓRIO ]</text>
+
+  <path
+    class="p"
+    d="M4 4H416L436 24V166H24L4 146Z"
+    fill="#12001F"
+    stroke="#B400FF"
+    stroke-width="2"
+    filter="url(#glow)"
+  />
+
+  <text x="28" y="40" font-size="13" fill="#8A4DD6">
+    // PROJETO 01
+  </text>
+
+  <text
+    x="28"
+    y="88"
+    font-size="34"
+    fill="#FFFFFF"
+    filter="url(#glow)"
+  >
+    SAFE-TRACK
+  </text>
+
+  <text x="28" y="116" font-size="14" fill="#B44CFF">
+    &gt; Projeto em desenvolvimento
+  </text>
+
+  <text
+    class="bk"
+    x="412"
+    y="148"
+    text-anchor="end"
+    font-size="14"
+    fill="#E100FF"
+  >
+    [ VER REPOSITÓRIO ]
+  </text>
+
 </svg>
