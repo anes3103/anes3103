@@ -1,1 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="Tecnologias: Java e SQL principais; HTML e CSS básico">
+  <defs>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text{font-family:'Courier New',Consolas,monospace;font-weight:bold}
+    .p{animation:pl 2.5s ease-in-out infinite}
+    .mv{animation:mv 4s linear infinite}
+    @keyframes pl{0%,100%{stroke-opacity:.55}50%{stroke-opacity:1}}
+    @keyframes mv{from{transform:translateX(0)}to{transform:translateX(780px)}}
+  </style>
 
+  <text x="20" y="38" font-size="20" fill="#CC33FF" filter="url(#glow)">// TECNOLOGIAS</text>
+  <line x1="20" y1="52" x2="880" y2="52" stroke="#4C0099" stroke-width="2"/>
+  <rect class="mv" x="20" y="51" width="80" height="2" fill="#E100FF"/>
+
+  <path class="p" d="M20 70H206L220 84V170H34L20 156Z" fill="#1A0030" stroke="#D000FF" stroke-width="2" filter="url(#glow)"/>
+  <path class="p" d="M240 70H426L440 84V170H254L240 156Z" fill="#1A0030" stroke="#D000FF" stroke-width="2" filter="url(#glow)"/>
+  <path d="M460 70H646L660 84V170H474L460 156Z" fill="#0E0019" stroke="#5A1FA8" stroke-width="1.5"/>
+  <path d="M680 70H866L880 84V170H694L680 156Z" fill="#0E0019" stroke="#5A1FA8" stroke-width="1.5"/>
+
+  <g text-anchor="middle">
+    <text x="120" y="125" font-size="32" fill="#FFFFFF">JAVA</text>
+    <text x="120" y="151" font-size="13" fill="#E100FF">[ PRINCIPAL ]</text>
+    <text x="340" y="125" font-size="32" fill="#FFFFFF">SQL</text>
+    <text x="340" y="151" font-size="13" fill="#E100FF">[ PRINCIPAL ]</text>
+    <text x="560" y="125" font-size="32" fill="#A66BE0">HTML</text>
+    <text x="560" y="151" font-size="13" fill="#8040C0">[ BÁSICO ]</text>
+    <text x="780" y="125" font-size="32" fill="#A66BE0">CSS</text>
+    <text x="780" y="151" font-size="13" fill="#8040C0">[ BÁSICO ]</text>
+  </g>
+</svg>
