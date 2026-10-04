@@ -15,7 +15,11 @@
 
 <img src="https://raw.githubusercontent.com/anes3103/anes3103/output/github-snake-dark.svg" alt="Cobrinha percorrendo os commits do GitHub" width="100%" />
 
-<img src="https://streak-stats.demolab.com/?user=anes3103&theme=dark&background=07000F&border=9D00FF&stroke=4C0099&ring=B400FF&fire=E100FF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E100FF&sideLabels=B400FF&dates=8A4DD6" alt="Estatísticas de contribuições de anes3103" />
+<img
+  src="https://raw.githubusercontent.com/anes3103/anes3103/main/assets/github-stats.svg"
+  alt="Estatísticas do GitHub de anes3103"
+  width="495"
+/>
 
 <img src="https://raw.githubusercontent.com/anes3103/anes3103/main/assets/divisor.svg" alt="" width="100%" />
 
