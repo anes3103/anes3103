@@ -1,1 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="anes3103 - Bem-vindo ao meu perfil! Estudante de Análise e Desenvolvimento de Sistemas (ADS)">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="100%" r="90%">
+      <stop offset="0" stop-color="#3B0A6E"/>
+      <stop offset="1" stop-color="#07000F"/>
+    </radialGradient>
+    <linearGradient id="sc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B400FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#B400FF" stop-opacity=".28"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cp"><rect width="900" height="300" rx="16"/></clipPath>
+  </defs>
 
+  <style>
+    text{font-family:'Courier New',Consolas,monospace;font-weight:bold}
+    .h{animation:pl 3s ease-in-out infinite}
+    .sl{animation:sl 5s linear infinite}
+    .fr{animation:pl 3s ease-in-out infinite}
+    .g1,.g2{opacity:0}
+    .g1{animation:g1 5s infinite}
+    .g2{animation:g2 5s infinite}
+    .ty{animation:ty 7s steps(25) infinite}
+    .cu{animation:cu 7s steps(25) infinite}
+    .bk{animation:bk 1s steps(1) infinite}
+    .fd{animation:fd 2s ease-out both}
+    @keyframes pl{0%,100%{stroke-opacity:.25}50%{stroke-opacity:1}}
+    @keyframes sl{from{transform:translateY(-60px)}to{transform:translateY(300px)}}
+    @keyframes g1{0%,90%,100%{opacity:0;transform:translate(0,0)}91%{opacity:.9;transform:translate(-5px,1px)}93%{opacity:.9;transform:translate(4px,-2px)}95%{opacity:0}}
+    @keyframes g2{0%,91%,100%{opacity:0;transform:translate(0,0)}92%{opacity:.9;transform:translate(5px,-1px)}94%{opacity:.9;transform:translate(-3px,2px)}96%{opacity:0}}
+    @keyframes ty{0%{clip-path:inset(0 100% 0 0)}45%,80%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}
+    @keyframes cu{0%{transform:translateX(0)}45%,80%{transform:translateX(360px)}100%{transform:translateX(0)}}
+    @keyframes bk{50%{opacity:0}}
+    @keyframes fd{from{opacity:0}to{opacity:1}}
+  </style>
+
+  <g clip-path="url(#cp)">
+    <rect width="900" height="300" fill="url(#bg)"/>
+
+    <g fill="none" stroke="#9D00FF">
+      <path stroke-opacity=".35" d="M450 215L-450 300M450 215L-300 300M450 215L-150 300M450 215L0 300M450 215L150 300M450 215L300 300M450 215L450 300M450 215L600 300M450 215L750 300M450 215L900 300M450 215L1050 300M450 215L1200 300M450 215L1350 300"/>
+      <line class="h" x1="0" y1="225" x2="900" y2="225" style="animation-delay:0s"/>
+      <line class="h" x1="0" y1="240" x2="900" y2="240" style="animation-delay:.3s"/>
+      <line class="h" x1="0" y1="260" x2="900" y2="260" style="animation-delay:.6s"/>
+      <line class="h" x1="0" y1="285" x2="900" y2="285" style="animation-delay:.9s"/>
+    </g>
+
+    <text class="g1" x="450" y="120" text-anchor="middle" font-size="68" letter-spacing="6" fill="#A100FF">ANES3103</text>
+    <text class="g2" x="450" y="120" text-anchor="middle" font-size="68" letter-spacing="6" fill="#5B00D6">ANES3103</text>
+    <text x="450" y="120" text-anchor="middle" font-size="68" letter-spacing="6" fill="#FFFFFF" filter="url(#glow)">ANES3103</text>
+
+    <g class="ty">
+      <text x="270" y="168" font-size="24" fill="#CC33FF" textLength="360" lengthAdjust="spacing" filter="url(#glow)">&gt; BEM-VINDO AO MEU PERFIL</text>
+    </g>
+    <g class="cu"><rect class="bk" x="270" y="148" width="12" height="24" fill="#E100FF"/></g>
+
+    <text class="fd" x="450" y="195" text-anchor="middle" font-size="14" fill="#B44CFF">ESTUDANTE DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS (ADS)</text>
+
+    <rect class="sl" width="900" height="60" fill="url(#sc)"/>
+  </g>
+
+  <g fill="none" stroke="#E100FF" stroke-width="3" filter="url(#glow)">
+    <path d="M22 52V22H52M848 22H878V52M22 248V278H52M878 248V278H848"/>
+  </g>
+  <rect class="fr" x="1" y="1" width="898" height="298" rx="16" fill="none" stroke="#9D00FF" stroke-width="2"/>
+</svg>
