@@ -19,4 +19,6 @@
 
 <img src="./assets/github-stats.svg" alt="Estatísticas do GitHub de anes3103" width="495" />
 
+<img src="https://raw.githubusercontent.com/anes3103/anes3103/main/assets/divisor.svg" alt="" width="100%" />
+
 </div>
