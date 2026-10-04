@@ -46,14 +46,13 @@
     <td align="center" width="360">
       <h3>📁 Safe-Track</h3>
       <p><em>Descrição em breve.</em></p>
-      <!-- Troque o link abaixo pelo endereço real: https://github.com/anes3103/NOME-DO-REPOSITORIO -->
-      <a href="https://github.com/anes3103?tab=repositories">🔗 Ver repositório</a>
+      <a href="https://github.com/anes3103/Safe-Track">🔗 Ver repositório</a>
     </td>
+    
     <td align="center" width="360">
       <h3>📁 Água-Alerta</h3>
       <p><em>Descrição em breve.</em></p>
-      <!-- Troque o link abaixo pelo endereço real: https://github.com/anes3103/NOME-DO-REPOSITORIO -->
-      <a href="https://github.com/anes3103?tab=repositories">🔗 Ver repositório</a>
+      <a href="https://github.com/anes3103/Agua-Alerta">🔗 Ver repositório</a>
     </td>
   </tr>
 </table>
