@@ -45,13 +45,13 @@
   <tr>
     <td align="center" width="360">
       <h3>📁 Safe-Track</h3>
-      <p><em>Descrição em breve.</em></p>
+      <p><em>Projeto em desenvolvimento.</em></p>
       <a href="https://github.com/anes3103/Safe-Track">🔗 Ver repositório</a>
     </td>
-    
+
     <td align="center" width="360">
       <h3>📁 Água-Alerta</h3>
-      <p><em>Descrição em breve.</em></p>
+      <p><em>Projeto em desenvolvimento.</em></p>
       <a href="https://github.com/anes3103/Agua-Alerta">🔗 Ver repositório</a>
     </td>
   </tr>
