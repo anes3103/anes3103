@@ -1,1 +1,18 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="24" viewBox="0 0 900 24">
+  <defs>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="-60" y="-12" width="1100" height="48">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .mv{animation:mv 4s linear infinite}
+    .d{animation:pu 2s ease-in-out infinite}
+    @keyframes mv{from{transform:translateX(-120px)}to{transform:translateX(900px)}}
+    @keyframes pu{0%,100%{opacity:.5}50%{opacity:1}}
+  </style>
+  <line x1="0" y1="12" x2="900" y2="12" stroke="#4C0099" stroke-width="2"/>
+  <rect class="mv" y="11" width="120" height="2" fill="#E100FF" filter="url(#glow)"/>
+  <path class="d" d="M450 4L458 12L450 20L442 12Z" fill="#B400FF" filter="url(#glow)"/>
+</svg>
